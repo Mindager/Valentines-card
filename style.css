@@ -1,0 +1,134 @@
+body{
+    background-color: #610C9F;
+}
+
+.heartContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart1{
+    width: 200px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart2{
+    width: 170px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart3{
+    width: 140px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart4{
+    width: 110px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart5{
+    width: 80px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart6{
+    width: 50px;
+    aspect-ratio: 1;
+    background:
+    radial-gradient(at 70% 31%,var(--c) 29%,#0000 30%),
+    radial-gradient(at 30% 31%,var(--c) 29%,#0000 30%),
+    conic-gradient(from -45deg at 50% 84%,var(--c) 90deg,#0000 0) 
+    bottom/100% 50% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color1{
+    --c: #940B92;
+}
+
+.color2{
+    --c: #DA0C81;
+}
+
+.color3{
+    --c: #E95793;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:#E95793
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+button {
+    background: transparent;
+    border: none !important;
+};
